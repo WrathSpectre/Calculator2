@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="multiply_sign">&#215;</string>
+    <string name="divide_sign">&#247;</string>
+    <string name="equal_sign">&#61;</string>
+    <string name="square">x&#178;</string>
+    <string name="power">x&#8319;</string>
+    <string name="square_root">&#8730;</string>
+    <string name="cube">x&#179;</string>
+    <string name="cube_root">&#8731;</string>
+    <string name="degree_sign">&#176;</string>
+    <string name="pi_sign">&#960;</string>
+    <string name="e_power">e&#8319;</string>
+</resources>

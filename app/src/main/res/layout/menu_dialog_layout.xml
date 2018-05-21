@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/modal_window"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="top|center"
+        android:text="Choose calculator mode :"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:orientation="vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="32dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/basic_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/plus_sign"
+            android:backgroundTint="@color/background_light"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Basic"
+            android:textSize="17sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/scientific_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/plus_sign"
+            android:backgroundTint="@color/background"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Scientific"
+            android:textSize="17sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="24dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/base_n_button"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/plus_sign"
+            android:backgroundTint="@color/background_dark"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Base-N"
+            android:textSize="17sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
